@@ -3,25 +3,21 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    /* font-size: 1.25rem; */
     color: #40514E;
 }
-
- 
-
 .nav-brand{
-  
     text-align: left;
     float: left;
     padding:  0.5% 0% 1% 5%;
 } 
-.nav-brand h3{
+.nav-brand h3 a{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: bold;
+    text-decoration: none;
 }
-.nav-brand h3:hover{
+.nav-brand h3 a:hover{
     color: #d411ba;
 }
 .nav-link{
@@ -46,9 +42,6 @@ li a{
 .nav-link li a:hover{
     color: #11999E;
 }
-
-
-
 .top-container {
     background-color: #E4F9F5;
     padding-top: 100px;
